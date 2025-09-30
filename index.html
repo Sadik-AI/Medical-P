@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical AI Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">MediCare AI</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="book-btn">Book Appointment</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Your Health, Our Priority</h1>
+        <p>AI-powered health insights and expert medical consultations.</p>
+        <button class="cta-btn">Check Symptoms</button>
+        <button class="cta-btn">Find a Doctor</button>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3>Online Consultation</h3>
+            <p>Talk to expert doctors anytime, anywhere.</p>
+        </div>
+        <div class="service-box">
+            <h3>AI Symptom Checker</h3>
+            <p>Enter symptoms and get AI-based health insights.</p>
+        </div>
+        <div class="service-box">
+            <h3>Medicine Delivery</h3>
+            <p>Order medicines online with doorstep delivery.</p>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section class="doctors">
+        <h2>Meet Our Experts</h2>
+        <div class="doctor-card">
+            <h3>Dr. Sagar Shakdweep</h3>
+            <p>Cardiologist | 10+ Years Experience</p>
+        </div>
+        <div class="doctor-card">
+            <h3>Dr. Otis</h3>
+            <p>Neurologist | 8+ Years Experience</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Get in Touch</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 MediCare AI | All Rights Reserved</p>
+    </footer>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0073e6;
+    padding: 15px 50px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.book-btn {
+    background: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px;
+    background: url('https://source.unsplash.com/1600x600/?hospital,medical') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+.cta-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ffcc00;
+    border: none;
+    cursor: pointer;
+}
+
+/* Services */
+.services {
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+
+.service-box {
+    background: #0073e6;
+    color: white;
+    padding: 20px;
+    margin: 15px;
+    display: inline-block;
+    width: 30%;
+    border-radius: 8px;
+}
+
+/* Doctors */
+.doctors {
+    text-align: center;
+    padding: 50px;
+    background: #f8f8f8;
+}
+
+.doctor-card {
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    width: 25%;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact button {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0073e6;
+    color: white;
+}
+
+    </style>
+
+</body>
+
+</html>
